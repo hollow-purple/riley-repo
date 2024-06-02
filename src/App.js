@@ -33,11 +33,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="main-container">
-        <p className="styled-text">{generatedAffirmation}</p>{" "}
+          <p className="styled-text">{generatedAffirmation}</p>{" "}
           {/* Input fields for player metrics */}
-
           <div className="button-container">
-          <img src="heart.png" alt="<3" className="icon-under-button" />
+            <img src="heart.png" alt="<3" className="icon-under-button" />
             <button className="styled-button" onClick={generateAffirmation}>
               Click me hihi &lt;3
             </button>{" "}
@@ -45,7 +44,6 @@ function App() {
             {/* Handle form submission */}
           </div>
         </div>
-        
       </header>
     </div>
   );
